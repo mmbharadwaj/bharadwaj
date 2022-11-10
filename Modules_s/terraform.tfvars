@@ -1,5 +1,7 @@
 cidr_block                                  = "10.21.0.0/16"
 vpc_name                                    = "jenkins-vpc"
+key_name                                    = "aaa-key"
+namespace                                   = "aaa"
 subnet_1_cidr                               = "10.21.0.0/20"
 subnet_2_cidr                               = "10.21.16.0/20"
 subnet_3_cidr                               = "10.21.128.0/20"

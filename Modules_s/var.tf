@@ -153,5 +153,11 @@ variable "vpc_security_group_ingress_rules" {
   }))
 }
 
+variable key_name {
+    type = string
+  }
+variable "namespace" {
+    type = string
+  }
 
 

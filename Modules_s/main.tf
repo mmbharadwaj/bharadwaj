@@ -12,7 +12,8 @@ module "vpc" {
 
   cidr_block = var.cidr_block
   vpc_name   = var.vpc_name
-
+  key_name = var.key_name
+  namespace = var.namespace
   subnet_1_cidr                    = var.subnet_1_cidr
   subnet_2_cidr                    = var.subnet_2_cidr
   subnet_1_tag_name                = var.subnet_1_tag_name
